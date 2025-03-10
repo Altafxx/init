@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Launch via NPM",
+            "request": "launch",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [
+                "run",
+                "dev",
+                "--",
+                "--inspect-brk"
+            ],
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "localRoot": "${workspaceFolder}",
+            "autoAttachChildProcesses": true,
+            "sourceMaps": true,
+            "restart": true,
+            "stopOnEntry": false,
+            "console": "integratedTerminal",
+            "type": "node"
+        }
+    ]
+}
