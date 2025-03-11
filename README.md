@@ -4,6 +4,7 @@
 1. If there's new colours, add it to the theme in tailwind.config.js
 1. Maximise DRY methodlogy
 1. Make sure to run ```npm run build``` before pushing to github and resolve any errors
+1. Avoid the use of type any at most case
 
 Documentations
 https://fumadocs.vercel.app/
